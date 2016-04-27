@@ -1,5 +1,4 @@
 public class Rectangle {
-
   private int mLength;
   private int mWidth;
 
@@ -17,6 +16,10 @@ public class Rectangle {
   }
   public boolean isSquare() {
     return mLength == mWidth;
+  }
+
+  public int area() {
+    return mLength * mWidth;
   }
 
 }
